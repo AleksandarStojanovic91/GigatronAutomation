@@ -94,6 +94,7 @@ public class TestClass2 extends BaseTest{
         }
     }
 
+    //WAS DELETED ON NOVIbRANCH
     @Test(description = "Gigatron filter test")
     @Description("Trebalo bi da verifikuje filtriranje")
     @TmsLink("PR-4836")
