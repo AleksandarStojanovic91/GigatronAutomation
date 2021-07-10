@@ -20,7 +20,7 @@ public class Proizvodi extends CommonMethods{
 
     @FindBy(xpath = "//div[@class=\"row product-items-main elastic-grid view-grid\"]//h4")
     public List<WebElement> titles;
-    @FindBy(xpath = "//div[@class=\"row product-items-main elastic-grid view-grid4\"]//h4")
+    @FindBy(xpath = "//div[@class=\"row product-items-main elastic-grid view-grid2\"]//h4")
     public List<WebElement> titles4;
 
     /** Use this method to filter products
