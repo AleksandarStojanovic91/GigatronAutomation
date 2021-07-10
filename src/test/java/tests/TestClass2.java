@@ -103,7 +103,7 @@ public class TestClass2 extends BaseTest{
     @Feature("F001")
     @Story("S001")
     @Attachment(value = "Attachment Test",type = "text/html")
-    public void gigatronMenuNavigation3() throws InterruptedException, IOException {
+    public void gigatronMenuNavigation56() throws InterruptedException, IOException {
         driver.get("https://gigatron.rs/");
         wdWait = new WebDriverWait(driver,10);
         BasePage bp = new BasePage(driver,wdWait);
